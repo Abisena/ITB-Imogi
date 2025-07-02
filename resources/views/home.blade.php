@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('title', 'ITB (Inovasi Terbaik Bangsa) - Coming Soon')
+@section('title', 'Imogi - Coming Soon')
 @section('meta_description', 'ITB sedang mempersiapkan solusi ERP & digitalisasi bisnis terdepan. Coming Soon!')
 @section('meta_keywords', 'ITB, Inovasi Terbaik Bangsa, ERP Indonesia, coming soon')
 
