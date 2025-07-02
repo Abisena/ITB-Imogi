@@ -177,51 +177,45 @@
         }
     </style>
 </head>
-<body class="bg-gray-100">
+<body class="bg-white min-h-screen">
 
     {{-- Enhanced Navbar --}}
-    <nav class="fixed w-full top-0 left-0 z-50 navbar-blur bg-gradient-to-r from-blue-600/95 via-blue-500/95 to-blue-700/95 shadow-lg border-b border-blue-400/20">
+    {{-- <nav class="fixed w-full top-0 left-0 z-50 navbar-blur bg-gradient-to-r from-blue-600/95 via-blue-500/95 to-blue-700/95 shadow-lg border-b border-blue-400/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 {{-- Logo Section --}}
-                <div class="flex items-center space-x-4">
-                    <div class="logo-container">
+                {{-- <div class="flex items-center space-x-4"> --}}
+                    {{-- <div class="logo-container">
                         <img src="{{ asset('images/imogi.png') }}" alt="Logo ITB" class="h-10 w-10 rounded-lg shadow-md">
-                    </div>
-                    <div class="hidden sm:block">
+                    </div> --}}
+                    {{-- <div class="hidden sm:block">
                         <h1 class="text-xl font-bold bg-gradient-to-r from-yellow-300 to-yellow-400 bg-clip-text text-transparent">
                             ITB
                         </h1>
                         <p class="text-xs text-blue-100 -mt-1">Inovasi Terbaik Bangsa</p>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- Desktop Navigation --}}
-                <div class="hidden md:flex items-center space-x-8">
-                    <a href="#home" class="navbar-link text-white font-medium px-3 py-2 rounded-md text-sm tracking-wide">
+                {{-- <div class="hidden md:flex items-center space-x-8"> --}}
+                    {{-- <a href="#home" class="navbar-link text-white font-medium px-3 py-2 rounded-md text-sm tracking-wide">
                         Home
-                    </a>
-                    <a href="#success-stories" class="navbar-link text-white font-medium px-3 py-2 rounded-md text-sm tracking-wide">
-                        Success Stories
-                    </a>
-                    <a href="#solutions" class="navbar-link text-white font-medium px-3 py-2 rounded-md text-sm tracking-wide">
-                        Solutions
                     </a>
                     <a href="#about" class="navbar-link text-white font-medium px-3 py-2 rounded-md text-sm tracking-wide">
                         About
                     </a>
                     <a href="#contact" class="navbar-link text-white font-medium px-3 py-2 rounded-md text-sm tracking-wide">
                         Contact
-                    </a>
+                    </a> --}}
 
                     {{-- CTA Button --}}
-                    <a href="#contact" class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-6 py-2 rounded-full font-semibold text-sm hover:from-yellow-300 hover:to-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                        Get Demo
-                    </a>
-                </div>
+                    {{-- <a href="#contact" class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-6 py-2 rounded-full font-semibold text-sm hover:from-yellow-300 hover:to-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        Contact
+                    </a> --}}
+                {{-- </div> --}}
 
                 {{-- Mobile Menu Button --}}
-                <div class="md:hidden">
+                {{-- <div class="md:hidden">
                     <button type="button" class="mobile-menu-button text-white hover:text-yellow-300 focus:outline-none focus:text-yellow-300 transition-colors duration-200" aria-label="Toggle menu">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path class="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -230,27 +224,15 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         {{-- Mobile Menu --}}
-        <div class="mobile-menu md:hidden fixed top-16 right-0 h-screen w-64 bg-gradient-to-b from-blue-600 to-blue-800 shadow-2xl">
+        {{-- <div class="mobile-menu md:hidden fixed top-16 right-0 h-screen w-64 bg-gradient-to-b from-blue-600 to-blue-800 shadow-2xl">
             <div class="px-6 py-8 space-y-6">
                 <a href="#home" class="mobile-nav-link block text-white font-medium py-3 px-4 rounded-lg hover:bg-blue-500/50 transition-all duration-200">
                     <span class="flex items-center space-x-3">
                         <i class="fas fa-home w-5 text-center"></i>
                         <span>Home</span>
-                    </span>
-                </a>
-                <a href="#success-stories" class="mobile-nav-link block text-white font-medium py-3 px-4 rounded-lg hover:bg-blue-500/50 transition-all duration-200">
-                    <span class="flex items-center space-x-3">
-                        <i class="fas fa-trophy w-5 text-center"></i>
-                        <span>Success Stories</span>
-                    </span>
-                </a>
-                <a href="#solutions" class="mobile-nav-link block text-white font-medium py-3 px-4 rounded-lg hover:bg-blue-500/50 transition-all duration-200">
-                    <span class="flex items-center space-x-3">
-                        <i class="fas fa-cogs w-5 text-center"></i>
-                        <span>Solutions</span>
                     </span>
                 </a>
                 <a href="#about" class="mobile-nav-link block text-white font-medium py-3 px-4 rounded-lg hover:bg-blue-500/50 transition-all duration-200">
@@ -267,14 +249,14 @@
                 </a>
 
                 {{-- Mobile CTA --}}
-                <div class="pt-6 border-t border-blue-400/30">
+                {{-- <div class="pt-6 border-t border-blue-400/30">
                     <a href="#contact" class="block w-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-6 py-3 rounded-full font-semibold text-center hover:from-yellow-300 hover:to-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg">
                         Get Demo
                     </a>
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> --}}
 
     {{-- Content --}}
     <main>
@@ -282,11 +264,11 @@
     </main>
 
     {{-- Enhanced Footer --}}
-    <footer class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 text-white">
+    {{-- <footer class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid md:grid-cols-4 gap-8">
                 {{-- Company Info --}}
-                <div class="space-y-4">
+                {{-- <div class="space-y-4">
                     <div class="flex items-center space-x-3">
                         <img src="{{ asset('images/imogi.png') }}" alt="Logo ITB" class="h-10 w-10 rounded-lg">
                         <div>
@@ -296,9 +278,9 @@
                     </div>
                     <p class="text-blue-100 text-sm leading-relaxed">
                         Menyediakan solusi teknologi inovatif untuk meningkatkan efisiensi bisnis Anda dengan sistem ERP terdepan.
-                    </p>
+                    </p> --}}
                     {{-- Social Media --}}
-                    <div class="flex space-x-4 pt-4">
+                    {{-- <div class="flex space-x-4 pt-4">
                         <a href="#" class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center hover:bg-blue-400 transition-colors">
                             <i class="fab fa-facebook-f text-white"></i>
                         </a>
@@ -312,34 +294,33 @@
                             <i class="fab fa-instagram text-white"></i>
                         </a>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- Solutions --}}
-                <div class="space-y-4">
+                {{-- <div class="space-y-4">
                     <h4 class="text-lg font-semibold text-yellow-300">Solutions</h4>
                     <div class="space-y-2">
-                        <a href="#solutions" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">ITB Core ERP</a>
-                        <a href="#solutions" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Manufacturing Suite</a>
-                        <a href="#solutions" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">HRM Suite</a>
-                        <a href="#solutions" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Retail & POS</a>
-                        <a href="#solutions" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Construction Suite</a>
+                        <a href="#about" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">ITB Core ERP</a>
+                        <a href="#about" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Manufacturing Suite</a>
+                        <a href="#about" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">HRM Suite</a>
+                        <a href="#about" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Retail & POS</a>
+                        <a href="#about" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Construction Suite</a>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- Quick Links --}}
-                <div class="space-y-4">
+                {{-- <div class="space-y-4">
                     <h4 class="text-lg font-semibold text-yellow-300">Quick Links</h4>
                     <div class="space-y-2">
                         <a href="#home" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Home</a>
-                        <a href="#success-stories" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Success Stories</a>
                         <a href="#about" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">About Us</a>
                         <a href="#contact" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Contact</a>
                         <a href="#" class="block text-blue-100 hover:text-yellow-300 transition-colors duration-200 text-sm">Privacy Policy</a>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- Contact Info --}}
-                <div class="space-y-4">
+                {{-- <div class="space-y-4">
                     <h4 class="text-lg font-semibold text-yellow-300">Contact Info</h4>
                     <div class="space-y-3 text-sm">
                         <div class="flex items-start space-x-3">
@@ -370,7 +351,7 @@
                 <p class="text-blue-100 text-sm">&copy; {{ now()->year }} ITB (Inovasi Terbaik Bangsa). All rights reserved.</p>
             </div>
         </div>
-    </footer>
+    </footer> --}}
 
     {{-- JavaScript for Enhanced Functionality --}}
     <script>
